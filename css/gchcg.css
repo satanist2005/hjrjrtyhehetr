@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.header {
+  background: #373A3C;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.header__g {
+  display: flex;
+  color: rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+.header__g p {
+  margin-right: 40px;
+}
+.header__g .e::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 6.54px;
+  background: url(../img/down-arrow.svg) no-repeat center center/cover;
+  margin-left: 15px;
+}
+.header__g .m::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 6.54px;
+  background: url(../img/down-arrow.svg) no-repeat center center/cover;
+  margin-left: 15px;
+}
+.header__g .m::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/user.svg) no-repeat center center/cover;
+  margin-right: 15px;
+}
+.header__pic {
+  padding: 15.03px;
+}
+.header input {
+  padding: 8px 66px 9px 16px;
+  margin-right: 40px;
+  border-radius: 4px;
+}
+
+.fot {
+  padding: 166px 0 720px 0;
+  background: url(../img/Star-Wars-Battlefront-II-combat.svg) no-repeat center center/cover;
+}
+.fot__wrap {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fot__minitit {
+  color: rgb(230, 226, 226);
+}
+.fot__title {
+  font-size: 71px;
+  color: white;
+}
+.fot__button {
+  background-color: #8DD83D;
+}
+
+.reg {
+  width: 300px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.reg__title {
+  color: #979797;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.reg__form {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.reg__input {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+  padding: 13px;
+}
+.reg__btn {
+  background-color: #8DD83D;
+  color: #FDFDFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  padding: 13px;
+}
+.reg__link {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.m {
+  color: white;
+  text-decoration: none;
+}
